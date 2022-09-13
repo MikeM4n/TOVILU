@@ -72,16 +72,14 @@ body{
         #6c5ce7 10%,
         #6f37a4 20%,
         #95289b 30%,
-        #9664bb 40%,
-        #fe7098 50%,
-        #fd79a8 60%,
-        #f973d2 70%,
-        #ff7675 80%,
-        #e84393 90%
+        #9664bb 50%,
+        #f973d2 60%,
+        #ff7675 70%,
+        #e84393 80%
 
     );
     background-size: 200% 200%;
-    animation: movimiento 4s ease-in-out infinite alternate;
+    animation: movimiento 6s ease-in-out infinite alternate;
 
 }
 
