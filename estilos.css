@@ -1,4 +1,95 @@
 * {
+    margin: 0;
     padding: 0;
-    position: felx;
+    box-sizing: border-box;
+    
 }
+
+
+:root {
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --whatsapp: green;
+}
+
+.redes-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-container ul li {
+    display: inline-block;
+    margin: 0 5px; 
+    width: 50px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.redes-container ul li a {
+    display: block;
+    padding: 0 10px;
+    background: gray;
+    color: white;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+    transition: .2s;
+}
+
+.redes-container ul:hover a {
+    filter: blur(2px);
+}
+
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.5);
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
+}
+
+.redes-container ul li .facebook:hover {
+    background: var(--facebook);
+}
+
+.redes-container ul li .instagram:hover {
+    background: var(--instagram);
+}
+
+.redes-container ul li .whatsapp:hover {
+    background: var(--whatsapp);
+}
+
+body{
+    place-content: center;
+    width: 100%;
+    height: 100hv;
+
+    background-image: linear-gradient(
+        to bottom right,
+        #202DB8 0%,
+        #6c5ce7 10%,
+        #6f37a4 20%,
+        #95289b 30%,
+        #9664bb 50%,
+        #f973d2 60%,
+        #ff7675 70%,
+        #e84393 80%
+
+    );
+    background-size: 200% 200%;
+    animation: movimiento 6s ease-in-out infinite alternate;
+
+}
+
+@keyframes movimiento{
+    to {
+        background-position: 0 0;
+    }
+    from {
+        background-position: 100% 100%;
+    }
+}
+
+
