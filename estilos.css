@@ -85,7 +85,7 @@ body{
 }
 
 @keyframes movimiento{
-    from {
+    to {
         background-position: 0 0;
     }
     from {
