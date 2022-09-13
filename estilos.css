@@ -68,19 +68,20 @@ body{
 
     background-image: linear-gradient(
         to bottom right,
-        #f973d2 0%,
-        #f973d2 10%,
-        #f973d2 20%,
-        #fe7098 30%,
-        #fe7098 40%,
+        #202DB8 0%,
+        #6c5ce7 10%,
+        #6f37a4 20%,
+        #95289b 30%,
+        #9664bb 40%,
         #fe7098 50%,
-        #fe7098 60%,
-        #9664bb 70%,
-        #9664bb 80%,
-        #9664bb 90%
+        #fd79a8 60%,
+        #f973d2 70%,
+        #ff7675 80%,
+        #e84393 90%
+
     );
     background-size: 200% 200%;
-    animation: movimiento 6s ease infinite alternate;
+    animation: movimiento 4s ease-in-out infinite alternate;
 
 }
 
